@@ -167,7 +167,7 @@ Now, you are ready to run llama.cpp. I've bound the path of my main `llama` fold
 $LLAMA/llama.cpp/main --color --interactive --model $LLAMA/gguf/llama-2-13b.Q5_K_M.gguf --n-predict 512 --repeat_penalty 1.0 --n-gpu-layers 15000 --reverse-prompt "User:" --in-prefix " " -f $LLAMA/llama.cpp/prompts/chat-with-bob.txt
 ```
 
-**The output shown below is run on a single A100-80GB instance.**
+**The output shown below was ran on a single A100-80GB instance.**
 
 ```
 Log start
