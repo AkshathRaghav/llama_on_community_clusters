@@ -12,6 +12,11 @@ This repository has a set of bash scripts that allow users to install and config
 
 Ensure you have permission to execute scripts and access the Gilbreth cluster. Familiarity with basic terminal commands and the Linux environment will be helpful.
 
+## 0. E-Lab Members
+
+Members of the E-Lab with access to the depot can simply copy the contents of launch.sh into their `~/.bashrc` and `source ~/.bashrc`. 
+Skip to [Running Inference](https://github.com/AkshathRaghav/llama_set_up_gilbreth/tree/main?tab=readme-ov-file#running-inference).
+
 ## 1. NVIDIA Toolkit Installation
 
 The NVIDIA Toolkit includes libraries and tools essential for developing applications that leverage NVIDIA GPUs.
