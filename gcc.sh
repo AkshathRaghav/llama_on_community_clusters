@@ -8,10 +8,9 @@ export BUILD_DIR=$ROOT_DIR/gcc/gcc_build
 
 mkdir -p $SRC_DIR && mkdir -p $BUILD_DIR
 
-cd $SRC_DIR
+cd $ROOT_DIR/gcc
 curl ftp://ftp.mirrorservice.org/sites/sourceware.org/pub/gcc/releases/gcc-12.2.0/gcc-12.2.0.tar.gz -O
-tar xvf gcc-12.2.0.tar.gz
-cd gcc-12.2.0
+tar xvf gcc-12.2.0.tar.gz -C $SRC_DIR --strip-components=1
 
 cd $BUILD_DIR
 $SRC_DIR/configure --disable-multilib --enable-languages=c,c++ --prefix=$BUILD_DIR  && make -k clean
