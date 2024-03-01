@@ -1,17 +1,16 @@
-# Getting Started with gcc, NVIDIA Toolkit, and llama.cpp on Gilbreth Cluster
+# Getting Started with NVIDIA Toolkit, gcc, and llama.cpp on Gilbreth Cluster
 
-Welcome to the quick start guide for setting up gcc, NVIDIA Toolkit, and running `llama.cpp` on the Gilbreth cluster. This guide is essential for users without sudo privileges, ensuring everyone can utilize these tools and libraries effectively.
+Welcome to the quick start guide for running `llama.cpp` on the Gilbreth cluster **without root access**.
 
 ## Why This Guide is Necessary
 
-On the Gilbreth cluster, users often encounter a common challenge: the lack of sudo access. This limitation restricts the ability to install global packages, update system libraries, or configure system-wide settings, which are crucial steps for many computational tasks and software development processes.
+On the Gilbreth cluster, users often face the issue of the lack of sudo access. This limitation restricts the ability to install packages or update system libraries (which are very old on these clusters).
 
-To overcome this barrier, we provide a set of bash scripts that allow users to install and configure gcc and the NVIDIA Toolkit in a user-specific directory. This approach ensures that you can run `llama.cpp` and other applications relying on these tools without the need for administrative privileges.
+This repository has a set of bash scripts that allow users to install and configure gcc and the NVIDIA Toolkit in a user-specific directory. This approach ensures that you can run `llama.cpp` without the need for administrative privileges.
 
 ### Before You Start
 
 Ensure you have permission to execute scripts and access the Gilbreth cluster. Familiarity with basic terminal commands and the Linux environment will be helpful.
-
 
 ## 1. NVIDIA Toolkit Installation
 
