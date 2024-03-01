@@ -14,7 +14,11 @@ Ensure you have permission to execute scripts and access the Gilbreth cluster. F
 
 ## 0. E-Lab Members
 
-Members of the E-Lab with access to the depot can simply copy the contents of launch.sh into their `~/.bashrc` and `source ~/.bashrc`. 
+Members of the E-Lab with access to the depot can simply copy the contents of launch.sh into their `~/.bashrc` and 
+```bash 
+source ~/.bashrc
+```
+
 Skip to [Running Inference](https://github.com/AkshathRaghav/llama_set_up_gilbreth/tree/main?tab=readme-ov-file#running-inference).
 
 ## 1. NVIDIA Toolkit Installation
